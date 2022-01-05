@@ -1,0 +1,40 @@
+main{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    border: lightblue 2px solid;
+}
+
+app-square{
+    border: 1px navy solid;
+    height: 200px
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    display: flex;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 1000px;
+    background: lightblue;
+    border: black solid 2px;
+    width: 200px;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border: none;
+    background-color: lightblue;
+    color: black;
+    opacity: .6;
+    transition: .5sec;
+}
+.btn:hover{
+    opacity: 1;
+}
